@@ -9,9 +9,9 @@ public class Main {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
         if (A < B) {
-            Recursion.methodReuse(A, B);
+            NumberGenerator.creates(A, B);
         } else {
-            Recursion.methodReuse(B, A);
+            NumberGenerator.creates(B, A);
         }
     }
 }
