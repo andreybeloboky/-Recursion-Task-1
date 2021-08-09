@@ -1,7 +1,20 @@
 # [Reursion] Task 1
 
-## The user enters two numbers, you need to output to the console from A to B 
+## Short description 
+The user enters two numbers, you need to output to the console from A to B 
 
 ## Getting started
 
-### Инструкция о том, как получить копию этого ПО и запустить его на локальном компьютере с целью разработки и тестирования. Подробную информацию о развертывании ПО в условиях эксплуатации см. в разделе «Развертывание».
+You can run your java program on a Linux machine by opening a terminal.
+
+Step 1; - Install.
+
+Step 2: open a terminal, point to the folder or package where your main program is present.
+
+Step 3: - compile it with javac Filename.java
+
+Step 4: - After the compilation class file is available, run it with java filename
+
+If you have multiple methods use the command to compile javac *. java
+
+To call the method, specify the specific path to the com.company.NameFile file 
