@@ -1,8 +1,17 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Scanner scanner = new Scanner(System.in);
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        if (A < B) {
+            NumberGenerator.creates(A, B);
+        } else {
+            NumberGenerator.creates(B, A);
+        }
     }
 }
