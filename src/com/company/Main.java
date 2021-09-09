@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
-        if (A < B) {
-            NumberGenerator.creates(A, B);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        if (a  < b) {
+            NumberGenerator.creates(a , b);
         } else {
-            NumberGenerator.creates(B, A);
+            NumberGenerator.creates(b, a );
         }
     }
 }
